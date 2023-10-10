@@ -22,7 +22,7 @@ export async function GET(req: NextRequest) {
 
     if (!apiKey || !apiSecret || !wsUrl) {
         return NextResponse.json(
-            { error: "Server misconfigured" },
+            { error: "Server misconfigured, something happend" },
             { status: 500 }
         );
     }
