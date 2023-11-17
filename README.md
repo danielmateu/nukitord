@@ -142,3 +142,9 @@ Referencias -> https://www.youtube.com/watch?v=ZbX4Ok9YX94&t=605s
    setIsMounted(true)
    }, [])
 3. if (!isMounted) return null
+
+## Planet Scale Database
+
+- Después de un cierto tiempo sin uso, la base de datos quedará en modo sleep y habrá que volver a levantarlo
+
+https://app.planetscale.com/
